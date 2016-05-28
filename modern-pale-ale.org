@@ -1,0 +1,75 @@
+#+TITLE: 𝔐𝔬𝔡𝔢𝔯𝔫 𝔓𝔞𝔩𝔢 𝔄𝔩𝔢
+#+AUTHOR: Vegard Sjonfjell og Johan Fjeldtvedt
+#+DATE: <2016-06-03 Fri>
+#+OPTIONS: toc:nil
+
+** Tidspunkt
+   Brygging [2016-06-03 Fri 17:00]
+   
+** Ingredienser
+   
+   #+BEGIN_SRC python :session :exports none
+      # Forhold mellom vår oppskrift og originaloppskrift
+      r = 25 / 20.
+
+      malts = [
+          [5500 * r, "pilsnermalt"],
+          [500 * r, "karamellmalt"],
+      ]
+
+      hop_times = [
+          [90, "cascade", 20 * r],
+          [10, "cascade", 7 * r],
+          [10, "citra", 7 * r],
+      ]
+   #+END_SRC
+   
+   #+RESULTS:
+   
+*** Malt
+    #+BEGIN_SRC python :session :exports results
+      [
+          [ malt.capitalize(), "%.0f g" % weight ]
+          for weight, malt in malts
+      ]
+    #+END_SRC
+    
+    #+RESULTS:
+    | Pilsnermalt  | 6875 g |
+    | Karamellmalt | 625 g  |
+    
+*** Humle
+    #+BEGIN_SRC python :session :exports results
+      hops = list(set(name for _, name, _ in hop_times))
+      [
+          [ hop.capitalize(), "%.0f g" % sum(gram for _, name, gram in hop_times if name == hop) ]
+          for hop in hops
+      ]
+    #+END_SRC
+    
+    #+RESULTS:
+    | Cascade | 34 g |
+    | Citra   | 9 g  |
+    
+** Mesking
+   Mesk i 60 minutter ved gjennomsnittlig 64 grader celsius.
+   
+** Koking
+   Kok i 90 minutter. Humle disponeres i kokeapparat på følgende måte:
+   
+   #+BEGIN_SRC python :session :exports results
+     [
+         [ "%d min" % time, hop.capitalize(), "%.0f g" % gram ]
+         for time, hop, gram in hop_times
+     ]
+   #+END_SRC
+   
+   #+RESULTS:
+   | 90 min | Cascade | 25 g |
+   | 10 min | Cascade | 9 g  |
+   | 10 min | Citra   | 9 g  |
+   
+** Gjæring
+   Gjæringen gikk på skinner, men Johan brakk en tann grunnet en hevert-relatert ulykke.
+   
+** Tapping
