@@ -1,4 +1,4 @@
-#+TITLE: 𝔐𝔬𝔡𝔢𝔯𝔫 𝔓𝔞𝔩𝔢 𝔄𝔩𝔢
+#+TITLE: 𝔐𝔬𝔡𝔢𝔯𝔫 𝔏𝔞𝔤𝔢𝔯
 #+AUTHOR: Vegard Sjonfjell og Johan Fjeldtvedt
 #+DATE: <2016-06-03 Fri>
 #+OPTIONS: toc:nil
