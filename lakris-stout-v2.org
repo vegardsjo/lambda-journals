@@ -26,7 +26,7 @@
      (deftag oz [value] `(* ~value 28.3495))
 
      (defn name* [item] (:name item))
-     (defn time [item] (:time item))
+     (defn time [item] (.format "{0} min" (:time item)))
 
      (defn grams [item]
        (.format "{:.0f} g" (:grams item)))
@@ -83,8 +83,8 @@
     #+END_SRC
    
    #+RESULTS:
-   | 90 | Williamette | 55 g  |
-   | 90 | Lakrisrot   | 200 g |
+   | 90 min | Williamette | 55 g  |
+   | 90 min | Lakrisrot   | 200 g |
    
 ** Gjæring
    
