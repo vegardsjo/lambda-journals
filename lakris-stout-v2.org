@@ -41,7 +41,7 @@
 
      (define-ingredients hops
        {:time boil-time :name "Williamette" :grams #scale #oz 1.5}
-       {:time boil-time :name "Lakrisrot" :grams 200 :desc "Lag en te av lakrisroten"})
+       {:time 0         :name "Lakrisrot"   :grams 200 :desc "Lag en te av lakrisroten"})
    #+END_SRC
 
 *** Malt
