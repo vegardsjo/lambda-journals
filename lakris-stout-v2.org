@@ -8,10 +8,6 @@
    
 ** Ingredienser
    #+BEGIN_SRC hy :results none :session bjarne :exports none
-     (import [hy.models [HySymbol]])
-     (import [hy.contrib.hy-repr [hy-repr hy-repr-register]])
-     (hy-repr-register HySymbol (fn [k] (format ":{}" (name k))))
-     
      (setv volume 28)
      (setv orig-volume 21.76612)
      (setv boil-time 90)
