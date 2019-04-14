@@ -21,24 +21,31 @@
      (deftag lbs [value] `(* ~value 453.592))
      (deftag oz [value] `(* ~value 28.3495))
 
-     (defn name* [item] (:name item))
-     (defn grams* [item] (:grams item))
+     (defn format-time [_ item]
+       (.format "{0} min" (:time item)))
 
-     (defn time [item] (.format "{0} min" (:time item)))
+     (defn format-grams [_ item]
+       (.format "{:.0f} g" (:grams item)))
 
-     (defn grams [item]
-       (.format "{:.0f} g" (grams* item)))
+     (defn get-total [coll key]
+       (reduce + (map (fn [item] (get item key)) coll)))
 
-     (defn get-total [coll key-fn]
-       (reduce + (map (fn [item] (key-fn item)) coll)))
+     (defn --percentage [key]
+       (fn [coll item]
+         (setv total (get-total coll key))
+         (.format "{:.2f} %" (* 100 (/ (get item key) total)))))
 
-     (defn percentage [coll key-fn]
-       (setv total (get-total coll key-fn))
-       (fn [item]
-         (.format "{:.2f}%" (* 100 (/ (key-fn item) total)))))
+     (defmacro percentage [key]
+       `(--percentage '~key))
 
-     (defn to-table [coll key-fns]
-       (list (map (fn [item] (list (map (fn [key-fn] (key-fn item)) key-fns))) coll)))
+     (defn to-table [coll keys]
+       (list (map
+               (fn [item]
+                 (list (map (fn [k] (if (keyword? k)
+                                        (get item k)
+                                        (k coll item)))
+                            keys)))
+               coll)))
    #+END_SRC
    #+BEGIN_SRC hy :results none :session bjarne :exports none
      (define-ingredients grains
@@ -56,25 +63,25 @@
 
 *** Malt
     #+BEGIN_SRC hy :session bjarne :results output table :exports results
-      (to-table grains [name* grams (percentage grains grams*)])
+      (to-table grains [:name format-grams (percentage :grams)])
     #+END_SRC
 
     #+RESULTS:
-    | Maris Otter            | 4085 g | 50.00% |
-    | Munich (9 SRM)         | 1751 g | 21.43% |
-    | Havregryn              | 1021 g | 12.50% |
-    | Crystal 80L            | 584 g  |  7.14% |
-    | Sjokolademalt          | 438 g  |  5.36% |
-    | Røstet bygg (umaltet?) | 292 g  |  3.57% |
+    | Maris Otter            | 4085 g | 50.00 % |
+    | Munich (9 SRM)         | 1751 g | 21.43 % |
+    | Havregryn              | 1021 g | 12.50 % |
+    | Crystal 80L            | 584 g  | 7.14 %  |
+    | Sjokolademalt          | 438 g  | 5.36 %  |
+    | Røstet bygg (umaltet?) | 292 g  | 3.57 %  |
 
 *** Humle
     #+BEGIN_SRC hy :session bjarne :results output table :exports results
-      (to-table hops [name* grams])
+      (to-table hops [:name format-grams (percentage :grams)])
     #+END_SRC
     
     #+RESULTS:
-    | Williamette | 55 g  |
-    | Lakrisrot   | 200 g |
+    | Williamette | 55 g  | 21.48 % |
+    | Lakrisrot   | 200 g | 78.52 % |
     
 ** Mesking
    Mesk i 60 minutter ved gjennomsnittlig 64 grader.
@@ -84,12 +91,12 @@
    Humle disponeres i kokeapparat på følgende måte.
    
     #+BEGIN_SRC hy :session bjarne :results output table :exports results
-      (to-table hops [time name* grams])
+      (to-table hops [format-time format-grams])
     #+END_SRC
    
    #+RESULTS:
-   | 90 min | Williamette | 55 g  |
-   | 90 min | Lakrisrot   | 200 g |
+   | 90 min | 55 g  |
+   | 0 min  | 200 g |
    
 ** Gjæring
    
