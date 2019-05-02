@@ -3,9 +3,9 @@
 #+DATE: Lørdag 4. April 2019
 
 #+OPTIONS: toc:nil
+ Basert på https://homebrewacademy.com/oatmeal-stout-recipe/  
 ** Tidspunkt
    Brygging 2019-04-??
-   
 ** Ingredienser
    #+BEGIN_SRC hy :results none :session bjarne :exports none
      (setv volume 28)
