@@ -1,13 +1,16 @@
 #+TITLE: Lakris stout v2
 #+AUTHOR: Vegard Sjonfjell og Johan Fjeldtvedt
 #+DATE: Lørdag 4. April 2019
-
 #+OPTIONS: toc:nil
- Basert på https://homebrewacademy.com/oatmeal-stout-recipe/  
-** Tidspunkt
-   Brygging 2019-04-??
-** Ingredienser
-   #+BEGIN_SRC hy :results none :session bjarne :exports none
+
+* Meta
+Basert på https://homebrewacademy.com/oatmeal-stout-recipe/
+
+* Tidspunkt
+Brygging 2019-04-??
+
+* Ingredienser
+#+BEGIN_SRC hy :results none :session bjarne :exports none
      (setv volume 28)
      (setv orig-volume 21.76612)
      (setv boil-time 90)
@@ -46,8 +49,8 @@
                                         (k coll item)))
                             keys)))
                coll)))
-   #+END_SRC
-   #+BEGIN_SRC hy :results none :session bjarne :exports none
+#+END_SRC
+#+BEGIN_SRC hy :results none :session bjarne :exports none
      (define-ingredients grains
        {:grams #scale #lbs 7    :name "Maris Otter"}
        {:grams #scale #lbs 3    :name "Munich (9 SRM)"}
@@ -59,46 +62,48 @@
      (define-ingredients hops
        {:time boil-time :name "Williamette" :grams #scale #oz 1.5}
        {:time 0         :name "Lakrisrot"   :grams 200 :desc "Lag en te av lakrisroten"})
-   #+END_SRC
+#+END_SRC
 
-*** Malt
-    #+BEGIN_SRC hy :session bjarne :results output table :exports results
+** Malt
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
       (to-table grains [:name format-grams (percentage :grams)])
-    #+END_SRC
+#+END_SRC
 
-    #+RESULTS:
-    | Maris Otter            | 4085 g | 50.00 % |
-    | Munich (9 SRM)         | 1751 g | 21.43 % |
-    | Havregryn              | 1021 g | 12.50 % |
-    | Crystal 80L            | 584 g  | 7.14 %  |
-    | Sjokolademalt          | 438 g  | 5.36 %  |
-    | Røstet bygg (umaltet?) | 292 g  | 3.57 %  |
+#+RESULTS:
+| Maris Otter            | 4085 g | 50.00 % |
+| Munich (9 SRM)         | 1751 g | 21.43 % |
+| Havregryn              | 1021 g | 12.50 % |
+| Crystal 80L            | 584 g  | 7.14 %  |
+| Sjokolademalt          | 438 g  | 5.36 %  |
+| Røstet bygg (umaltet?) | 292 g  | 3.57 %  |
 
-*** Humle
-    #+BEGIN_SRC hy :session bjarne :results output table :exports results
+** Humle
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
       (to-table hops [:name format-grams (percentage :grams)])
-    #+END_SRC
+#+END_SRC
     
-    #+RESULTS:
-    | Williamette | 55 g  | 21.48 % |
-    | Lakrisrot   | 200 g | 78.52 % |
+#+RESULTS:
+| Williamette | 55 g  | 21.48 % |
+| Lakrisrot   | 200 g | 78.52 % |
     
-** Mesking
-   Mesk i 60 minutter ved gjennomsnittlig 64 grader.
+* Mesking
+Mesk i 60 minutter ved gjennomsnittlig 64 grader. Bruk 22.3 liter meskevann
+
+* Skylling
+Varm opp 18 liter skyllevann. Tøm etter behov.
    
-** Koking
-   Kok i 90 minutter.
-   Humle disponeres i kokeapparat på følgende måte.
+* Koking
+Kok i 90 minutter.
+Humle disponeres i kokeapparat på følgende måte.
    
-    #+BEGIN_SRC hy :session bjarne :results output table :exports results
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
       (to-table hops [format-time format-grams])
-    #+END_SRC
+#+END_SRC
    
-   #+RESULTS:
-   | 90 min | 55 g  |
-   | 0 min  | 200 g |
+#+RESULTS:
+| 90 min | 55 g  |
+| 0 min  | 200 g |
    
-** Gjæring
+* Gjæring
    
-   
-** Tapping
+* Tapping
