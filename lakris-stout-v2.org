@@ -9,7 +9,7 @@ Basert på https://homebrewacademy.com/oatmeal-stout-recipe/
 * Tidspunkt
 Brygging 2019-04-??
 
-* COMMENT Ingredienser
+* Ingredienser
 #+BEGIN_SRC hy :results none :session bjarne :exports none
      (setv volume 28)
      (setv orig-volume 21.76612)
