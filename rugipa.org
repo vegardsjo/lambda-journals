@@ -9,7 +9,7 @@ Basert på Superfresh Citrus IPA
 * Tidspunkt
 Brygging 2019-05-31
 
-* COMMENT Ingredienser
+* Ingredienser
 #+BEGIN_SRC hy :results none :session bjarne :exports none
      (defmacro define-ingredients [coll-name &rest args]
        `(do
