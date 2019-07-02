@@ -11,60 +11,67 @@ Brygging 2019-05-31
 
 * Ingredienser
 #+BEGIN_SRC hy :results none :session bjarne :exports none
-     (defmacro define-ingredients [coll-name &rest args]
-       `(do
-          (global ~coll-name)
-          (setv ~coll-name ~args)))
-
-     (deftag scale [orig-value] `(* ~orig-value (/ volume orig-volume)))
-     (deftag lbs [value] `(* ~value 453.592))
-     (deftag oz [value] `(* ~value 28.3495))
-     (deftag kg [value] `(* ~value 1000))
-
-     (defn format-time [_ item]
-       (.format "{0} min" (:time item)))
-
-     (defn format-grams [_ item]
-       (.format "{:.0f} g" (:grams item)))
-
-     (defn get-total [coll key]
-       (reduce + (map (fn [item] (get item key)) coll)))
-
-     (defn --percentage [key]
-       (fn [coll item]
-         (setv total (get-total coll key))
-         (.format "{:.2f} %" (* 100 (/ (get item key) total)))))
-
-     (defmacro percentage [key]
-       `(--percentage '~key))
-
-     (defn to-table [coll keys]
-       (list (map
-               (fn [item]
-                 (list (map (fn [k] (if (keyword? k)
-                                        (get item k)
-                                        (k coll item)))
-                            keys)))
-               coll)))
-#+END_SRC
-#+BEGIN_SRC hy :results none :session bjarne :exports none
   (setv volume 28)
   (setv orig-volume 25)
   (setv boil-time 90)
 
+  (defmacro define-ingredients [coll-name &rest args]
+    `(do
+       (global ~coll-name)
+       (setv ~coll-name ~args)))
+
+  (deftag scale [orig-value] `(* ~orig-value (/ volume orig-volume)))
+  (deftag lbs [value] `(* ~value 453.592))
+  (deftag oz [value] `(* ~value 28.3495))
+  (deftag kg [value] `(* ~value 1000))
+
+  (defn format-time [_ item]
+    (if (isinstance (:time item) str)
+        (:time item)   
+        (.format "{0} min" (:time item))))
+
+  (defn format-grams [_ item]
+    (.format "{:.0f} g" (:grams item)))
+
+  (defn get-total [coll key]
+    (reduce + (map (fn [item] (get item key)) coll)))
+
+  (defn --percentage [key]
+    (fn [coll item]
+      (setv total (get-total coll key))
+      (.format "{:.2f} %" (* 100 (/ (get item key) total)))))
+
+  (defmacro percentage [key]
+    `(--percentage '~key))
+
+  (defn to-table [coll keys]
+    (list (map
+            (fn [item]
+              (list (map (fn [k] (if (keyword? k)
+                                    (get item k)
+                                    (k coll item)))
+                         keys)))
+            coll)))
+
+  (defn total-ebc [grains]
+    (/ (reduce +
+               (map (fn [grain] (* (:grams grain) (:ebc grain)))
+                    grains))
+       (get-total grains ':grams)))
+#+END_SRC
+#+BEGIN_SRC hy :results none :session bjarne :exports none
   (define-ingredients grains
-    {:grams #scale #kg 5.951 :name "Best Pale Ale Malt (5 EBC)"}
-    {:grams #scale #kg 0.275 :name "Best Caramell Hell (30 EBC)"}
-    {:grams #scale #kg 0.275 :name "Best Wheat Malt (5 EBC)"}
-    {:grams #scale #kg 0.5 :name "Rye Malt"})
+    {:grams #scale #kg 5.951 :name "Best Pale Ale Malt" :ebc 5}
+    {:grams #scale #kg 0.275 :name "Best Caramell Hell" :ebc 30}
+    {:grams #scale #kg 0.275 :name "Best Wheat Malt" :ebc 5}
+    {:grams #scale #kg 0.5 :name "Rye Malt" :ebc 5})
 
   (define-ingredients hops
-    {:time 60 :name "Mandarina Bavaria 7%" :grams #scale 40 #kg}
-    {:time 15 :name "Mandarina Bavaria 7%"  :grams #scale 15}
-    {:time "hop-stand" :name "Mandarina Bavaria 7%" :grams #scale 25}
-    {:time "hop-stand" :name "Citra 13%" :grams #scale 50}
-    {:time "dryhop" :name "Mandarina Bavaria 7%" :grams #scale 40}
-    {:time "dryhop" :name "Citra 13%" :grams #scale 50})
+    {:time 60 :name "Mandarina Bavaria 7%" :grams #scale 40}
+    {:time 15 :name "Mandarina Bavaria 7%" :grams #scale 15}
+    {:time 15 :name "Citra 13%" :grams #scale 15}
+    {:time "dryhop" :name "Mandarina Bavaria 7%" :grams #scale 65}
+    {:time "dryhop" :name "Citra 13%" :grams (- 100 17)})
 #+END_SRC
 
 ** Malt
@@ -72,27 +79,40 @@ Brygging 2019-05-31
       (to-table grains [:name format-grams (percentage :grams)])
 #+END_SRC
 
+\begin{itemize}
+\item blah
+\item bleh
+\item bluh
+\end{itemize}
+
 #+RESULTS:
-| Best Pale Ale Malt (5 EBC)  | 6665 g | 85.00 % |
-| Best Caramell Hell (30 EBC) | 308 g  | 3.93 %  |
-| Best Wheat Malt (5 EBC)     | 308 g  | 3.93 %  |
-| Rye Malt                    | 560 g  | 7.14 %  |
+| Best Pale Ale Malt | 6665 g | 85.00 % |
+| Best Caramell Hell | 308 g  | 3.93 %  |
+| Best Wheat Malt    | 308 g  | 3.93 %  |
+| Rye Malt           | 560 g  | 7.14 %  |
+
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+      (total-ebc grains)
+#+END_SRC
+
+#+RESULTS:
+: 5.982002571061277
 
 ** Humle
 #+BEGIN_SRC hy :session bjarne :results output table :exports results
-      (to-table hops [:name format-grams (percentage :grams)])
+  (to-table hops [:name format-grams (percentage :grams)])
 #+END_SRC
     
 #+RESULTS:
-| Mandarina Bavaria 7% | 45 g | 18.18 % |
-| Mandarina Bavaria 7% | 17 g | 6.82 %  |
-| Mandarina Bavaria 7% | 28 g | 11.36 % |
-| Citra 13%            | 56 g | 22.73 % |
-| Mandarina Bavaria 7% | 45 g | 18.18 % |
-| Citra 13%            | 56 g | 22.73 % |
+| Mandarina Bavaria 7% | 45 g | 19.13 % |
+| Mandarina Bavaria 7% | 17 g | 7.17 %  |
+| Citra 13%            | 17 g | 7.17 %  |
+| Mandarina Bavaria 7% | 73 g | 31.08 % |
+| Citra 13%            | 83 g | 35.44 % |
     
 * Mesking
-Mesk i 60 minutter ved gjennomsnittlig 65 grader. TODO Meskevann
+Mesk i 60 minutter ved gjennomsnittlig 65 grader.
+Meskevann 22 L, 18 L skyllevann
 
 * Skylling
 TODO Skyllevann
@@ -104,14 +124,13 @@ Humle disponeres i kokeapparat på følgende måte.
 #+BEGIN_SRC hy :session bjarne :results output table :exports results
       (to-table hops [:name format-time format-grams])
 #+END_SRC
-   
+
 #+RESULTS:
-| Mandarina Bavaria 7% | 60 min        | 45 g |
-| Mandarina Bavaria 7% | 15 min        | 17 g |
-| Mandarina Bavaria 7% | hop-stand min | 28 g |
-| Citra 13%            | hop-stand min | 56 g |
-| Mandarina Bavaria 7% | dry min       | 45 g |
-| Citra 13%            | dry min       | 56 g |
+| Mandarina Bavaria 7% | 60 min | 45 g |
+| Mandarina Bavaria 7% | 15 min | 17 g |
+| Citra 13%            | 15 min | 17 g |
+| Mandarina Bavaria 7% | dryhop | 73 g |
+| Citra 13%            | dryhop | 83 g |
    
 * Gjæring
 To uker på 20 grader
