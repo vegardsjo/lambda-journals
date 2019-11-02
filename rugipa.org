@@ -79,12 +79,6 @@ Brygging 2019-05-31
       (to-table grains [:name format-grams (percentage :grams)])
 #+END_SRC
 
-\begin{itemize}
-\item blah
-\item bleh
-\item bluh
-\end{itemize}
-
 #+RESULTS:
 | Best Pale Ale Malt | 6665 g | 85.00 % |
 | Best Caramell Hell | 308 g  | 3.93 %  |
