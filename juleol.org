@@ -1,0 +1,152 @@
+#+TITLE: Smash
+#+AUTHOR: Vegard Sjonfjell og Johan Fjeldtvedt
+#+DATE: Fredag 09 Aug 2019
+#+OPTIONS: toc:nil
+
+* Meta
+Juleøl
+
+* Tidspunkt
+Brygging 2019-11-02
+
+* Ingredienser
+#+BEGIN_SRC hy :results none :session bjarne :exports none
+  (setv volume 28)
+  (setv orig-volume 20.8198)
+  (setv boil-time 60)
+
+  (defmacro define-ingredients [coll-name &rest args]
+    `(do
+       (global ~coll-name)
+       (setv ~coll-name ~args)))
+
+  (deftag scale [orig-value] `(* ~orig-value (/ volume orig-volume)))
+  (deftag lbs [value] `(* ~value 453.592))
+  (deftag oz [value] `(* ~value 28.3495))
+  (deftag kg [value] `(* ~value 1000))
+
+  (defn format-time [_ item]
+    (if (isinstance (:time item) str)
+        (:time item)   
+        (.format "{0} min" (:time item))))
+
+  (defn format-grams [_ item]
+    (.format "{:.0f} g" (:grams item)))
+
+  (defn get-total [coll key]
+    (reduce + (map (fn [item] (get item key)) coll)))
+
+  (defn --percentage [key]
+    (fn [coll item]
+      (setv total (get-total coll key))
+      (.format "{:.2f} %" (* 100 (/ (get item key) total)))))
+
+  (defmacro percentage [key]
+    `(--percentage '~key))
+
+  (defn to-table [coll keys]
+    (list (map
+            (fn [item]
+              (list (map (fn [k] (if (keyword? k)
+                                    (get item k)
+                                    (k coll item)))
+                         keys)))
+            coll)))
+
+  (defn total-ebc [grains]
+    (/ (reduce +
+               (map (fn [grain] (* (:grams grain) (:ebc grain)))
+                    grains))
+       (get-total grains ':grams)))
+#+END_SRC
+
+#+BEGIN_SRC hy :results none :session bjarne :exports none
+  (define-ingredients grains
+    {:grams #scale #lbs 13 :name "Pale malt" :ebc 5}
+    {:grams 100 :name "Crisp Chocolate Malt" :ebc 900}
+    {:grams 100 :name "Caramel pils malt" :ebc 5}
+    {:grams 100 :name "Flaket havre" :ebc 0})
+    
+  (define-ingredients hops
+    {:time 60  :name "Admiral" :grams #scale #oz 1.85}
+    {:time 15  :name "Nittedal" :grams #scale #oz 0.82}
+    {:time 15  :name "Eienerbær" :grams 161}
+    {:time 15  :name "Lakrisrot" :grams 22}
+    {:time 15  :name "Kanelbark (2 cm, knuses)" :grams 0}
+    {:time 15  :name "Nellikspiker (2 stk)" :grams 0})
+    
+#+END_SRC
+
+** Malt
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+      (to-table grains [:name format-grams (percentage :grams)])
+#+END_SRC
+
+#+RESULTS:
+| Pale malt            | 7930 g | 96.35 % |
+| Crisp Chocolate Malt | 100 g  | 1.22 %  |
+| Caramel pils malt    | 100 g  | 1.22 %  |
+| Flaket havre         | 100 g  | 1.22 %  |
+
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+(get-total grains ':grams)
+#+END_SRC
+
+#+RESULTS:
+: 8230.310953995715
+
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+      (total-ebc grains)
+#+END_SRC
+
+#+RESULTS:
+: 15.813686201830757
+
+** Humle
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+  (to-table hops [:name format-grams (percentage :grams)])
+#+END_SRC
+    
+#+RESULTS:
+| Admiral                  | 71 g  | 24.77 % |
+| Nittedal                 | 31 g  | 10.98 % |
+| Eienerbær                | 161 g | 56.53 % |
+| Lakrisrot                | 22 g  | 7.72 %  |
+| Kanelbark (2 cm, knuses) | 0 g   | 0.00 %  |
+| Nellikspiker (2 stk)     | 0 g   | 0.00 %  |
+    
+* Mesking
+Mesk i 60 minutter ved gjennomsnittlig 65 grader.
+Meskevann 22 L, 18 L skyllevann
+
+* Skylling
+TODO Skyllevann
+   
+* Koking
+Kok i 60 minutter.
+Humle disponeres i kokeapparat på følgende måte.
+   
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+      (to-table hops [:name format-time format-grams])
+#+END_SRC
+
+#+RESULTS:
+| Admiral                  | 60 min | 71 g  |
+| Nittedal                 | 15 min | 31 g  |
+| Eienerbær                | 15 min | 161 g |
+| Lakrisrot                | 15 min | 22 g  |
+| Kanelbark (2 cm, knuses) | 15 min | 0 g   |
+| Nellikspiker (2 stk)     | 15 min | 0 g   |
+
+#+BEGIN_SRC hy :session bjarne :results output table :exports results
+(get-total hops ':grams)
+#+END_SRC
+
+#+RESULTS:
+: 284.79774157292576
+   
+* Gjæring
+- Finn en gjær som passer for juleøl
+- Gjæres To uker på 20 grader
+   
+* Tapping
