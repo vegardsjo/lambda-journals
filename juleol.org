@@ -1,6 +1,6 @@
-#+TITLE: Smash
+#+TITLE: Juleøl
 #+AUTHOR: Vegard Sjonfjell og Johan Fjeldtvedt
-#+DATE: Fredag 09 Aug 2019
+#+DATE: Fredag 30 Oct 2019
 #+OPTIONS: toc:nil
 
 * Meta
