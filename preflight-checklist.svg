@@ -29,14 +29,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.8"
-     inkscape:cx="398.05556"
-     inkscape:cy="950.27778"
+     inkscape:cx="412.5"
+     inkscape:cy="229.72222"
      inkscape:window-width="2556"
      inkscape:window-height="1378"
      inkscape:window-x="0"
      inkscape:window-y="60"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:snap-global="true"
@@ -65,12 +65,8 @@
        id="guide23161" />
     <sodipodi:guide
        position="105.00005,297"
-       orientation="-1122.5197,0"
-       id="guide23163" />
-    <sodipodi:guide
-       position="0,237.00001"
-       orientation="0,1"
-       id="guide49661"
+       orientation="-1,0"
+       id="guide23163"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
@@ -86,21 +82,21 @@
        orientation="0,-793.70079"
        id="guide49665" />
     <sodipodi:guide
-       position="8,310.50217"
+       position="8,297"
        orientation="-1,0"
        id="guide49667"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="103.00005,294.08958"
+       position="103.00005,297"
        orientation="-1,0"
        id="guide50278"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="107.00005,294.08958"
+       position="107.00005,297"
        orientation="-1,0"
        id="guide50280"
        inkscape:label=""
@@ -121,35 +117,35 @@
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="6,310.50217"
+       position="6,297"
        orientation="-1,0"
        id="guide1627"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="210,10"
+       position="0,10"
        orientation="0,1"
        id="guide2644"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="106.00005,294.08958"
+       position="106.00005,297"
        orientation="-1,0"
        id="guide9041"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="104.00005,294.08958"
+       position="104.00005,297"
        orientation="-1,0"
        id="guide9043"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="3,260.50218"
+       position="3,297"
        orientation="-1,0"
        id="guide122540"
        inkscape:label=""
@@ -170,14 +166,14 @@
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="207,247.00001"
+       position="207,297"
        orientation="-1,0"
        id="guide122757"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="0,3"
+       position="0,3.00684"
        orientation="0,1"
        id="guide123221"
        inkscape:label=""
@@ -198,14 +194,14 @@
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="204,247.00001"
+       position="204,297"
        orientation="-1,0"
        id="guide124495"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
-       position="5,260.50218"
+       position="5,297"
        orientation="-1,0"
        id="guide124497"
        inkscape:label=""
@@ -256,7 +252,8 @@
      inkscape:label="Background"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        id="path300705"
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.2089"
@@ -297,7 +294,7 @@
          id="tspan33078"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93889px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.250364"
          x="70.104729"
-         y="24.867243">VERSJON 1.1 — 18.01.2022  </tspan></text>
+         y="24.867243">VERSJON 1.1 — 19.01.2022  </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.155024"
@@ -846,7 +843,7 @@
          y="197.82893"
          id="tspan573898">4.<tspan
    style="letter-spacing:1.05833px"
-   id="tspan349968"> </tspan>Ta vare på litt øl for FG-måling<tspan
+   id="tspan349968"> </tspan>Ta vare på litt øl for OG-måling<tspan
    style="font-size:3.52778px"
    id="tspan8758"> <tspan
    style="fill:#333333;fill-opacity:1"

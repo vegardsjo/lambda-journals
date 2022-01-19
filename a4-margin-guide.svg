@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2677"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="a4-margin-guide.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2679"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-text-baseline="true"
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-center="false"
+     inkscape:snap-page="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-others="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:zoom="1"
+     inkscape:cx="281.5"
+     inkscape:cy="93.5"
+     inkscape:window-width="2556"
+     inkscape:window-height="1378"
+     inkscape:window-x="0"
+     inkscape:window-y="60"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <sodipodi:guide
+       position="0,297"
+       orientation="-1,0"
+       id="guide47623"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="210,297"
+       orientation="-1,0"
+       id="guide47625"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="0,297"
+       orientation="0,1"
+       id="guide47627"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+    <sodipodi:guide
+       position="150.00328,0"
+       orientation="0,1"
+       id="guide47629"
+       inkscape:label=""
+       inkscape:locked="false"
+       inkscape:color="rgb(0,0,255)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2674" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ef5900;fill-opacity:0.6;stroke:none;stroke-width:0.315294;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect121463"
+       width="210"
+       height="2"
+       x="0.00025939941"
+       y="-293.97418"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ef9000;fill-opacity:0.6;stroke:none;stroke-width:0.315294;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect121465"
+       width="210"
+       height="2"
+       x="1.3877788e-17"
+       y="-292"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ef2100;fill-opacity:0.6;stroke:none;stroke-width:0.386155;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect121461"
+       width="210"
+       height="3"
+       x="0.00025939941"
+       y="-296.97418"
+       transform="scale(1,-1)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 0,292 H 210"
+       id="path47686" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 0,294 H 210"
+       id="path68460" />
+    <rect
+       style="fill:#00b7ef;fill-opacity:0.5;stroke:none;stroke-width:0.652515;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect100768"
+       width="3"
+       height="297"
+       x="-3.3306691e-16"
+       y="4.3106259e-14" />
+    <rect
+       style="fill:#00efdb;fill-opacity:0.5;stroke:none;stroke-width:0.532776;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect100770"
+       width="2"
+       height="297"
+       x="3"
+       y="4.3106259e-14" />
+    <rect
+       style="fill:#00ef72;fill-opacity:0.6;stroke:none;stroke-width:0.532776;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect100790"
+       width="2"
+       height="297"
+       x="5"
+       y="7.7928797e-07" />
+    <rect
+       style="fill:#00b7ef;fill-opacity:0.5;stroke:none;stroke-width:0.652515;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect120812"
+       width="3"
+       height="297"
+       x="-209.99997"
+       y="2.9009545e-13"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#00efdb;fill-opacity:0.5;stroke:none;stroke-width:0.532776;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect120814"
+       width="2"
+       height="297"
+       x="-207.00002"
+       y="7.792882e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#00ef72;fill-opacity:0.6;stroke:none;stroke-width:0.532777;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect120816"
+       width="2.0000014"
+       height="297"
+       x="-205"
+       y="7.792882e-07"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#ef2100;fill-opacity:0.60000002;stroke:none;stroke-width:0.386155;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect121142"
+       width="210"
+       height="3"
+       x="0"
+       y="7.7927928e-07" />
+    <rect
+       style="fill:#ef5900;fill-opacity:0.6;stroke:none;stroke-width:0.315294;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect121242"
+       width="210"
+       height="2"
+       x="-2.3592239e-15"
+       y="3.25" />
+    <rect
+       style="fill:#ef9000;fill-opacity:0.6;stroke:none;stroke-width:0.315294;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect121262"
+       width="210"
+       height="2"
+       x="0"
+       y="5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="158.93127"
+       y="149.76746"
+       id="text30790"><tspan
+         sodipodi:role="line"
+         id="tspan30788"
+         style="stroke-width:0.264583"
+         x="158.93127"
+         y="149.76746" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 0,5.25 H 210"
+       id="path47768" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       d="M 205,7.7928821e-7 V 297"
+       id="path47827" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 5,7.79288e-7 V 297"
+       id="path47934" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       d="M 203,7.7928821e-7 V 297"
+       id="path48883" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 7,7.79288e-7 V 297"
+       id="path48885" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 0,290 H 210"
+       id="path48887" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="191.42303"
+       y="148.89464"
+       id="text16306"><tspan
+         sodipodi:role="line"
+         id="tspan16304"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="191.42303"
+         y="148.89464">5mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="189.42326"
+       y="152.89464"
+       id="text48893"><tspan
+         sodipodi:role="line"
+         id="tspan48891"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="189.42326"
+         y="152.89464">7mm</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 0,7 H 210"
+       id="path68415" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 0,3.25 H 210"
+       id="path68456" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       d="M 207,7.7928821e-7 V 297"
+       id="path68458" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.687916;stroke-opacity:0.4"
+       d="M 3,7.79288e-7 V 297"
+       id="path68462" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64451px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264586"
+       x="193.42303"
+       y="144.89638"
+       id="text83465"><tspan
+         sodipodi:role="line"
+         id="tspan83463"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23339px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264586"
+         x="193.42303"
+         y="144.89638">3mm</tspan></text>
+    <rect
+       style="fill:#007eee;fill-opacity:0.8;stroke:none;stroke-width:0.391218;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect83589"
+       width="26.915762"
+       height="350.90906"
+       x="210"
+       y="-26.96744" />
+    <rect
+       style="fill:#007eee;fill-opacity:0.8;stroke:none;stroke-width:0.391218;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4"
+       id="rect83722"
+       width="26.915762"
+       height="350.90906"
+       x="-26.915237"
+       y="-26.96744" />
+    <rect
+       style="fill:#f8ff0a;stroke:none;stroke-width:0.339546;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;fill-opacity:0.80000001"
+       id="rect83724"
+       width="26.96744"
+       height="263.83099"
+       x="-26.96744"
+       y="-236.91576"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#f9ff0a;stroke:none;stroke-width:0.339547;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.4;fill-opacity:0.80000001"
+       id="rect83726"
+       width="26.96744"
+       height="263.83099"
+       x="296.97418"
+       y="-236.91576"
+       transform="rotate(90)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="98.362144"
+       y="291.43265"
+       id="text15552"><tspan
+         sodipodi:role="line"
+         id="tspan15550"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="98.362144"
+         y="291.43265">5mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="112.11726"
+       y="289.43265"
+       id="text56405"><tspan
+         sodipodi:role="line"
+         id="tspan56403"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="112.11726"
+         y="289.43265">7mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="84.484032"
+       y="293.4325"
+       id="text82075"><tspan
+         sodipodi:role="line"
+         id="tspan82073"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="84.484032"
+         y="293.4325">3mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="5.3010335"
+       y="148.89464"
+       id="text22124"><tspan
+         sodipodi:role="line"
+         id="tspan22122"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="5.3010335"
+         y="148.89464">5mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="7.3012671"
+       y="152.89464"
+       id="text51881"><tspan
+         sodipodi:role="line"
+         id="tspan51879"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.3012671"
+         y="152.89464">7mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64451px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264586"
+       x="3.3010306"
+       y="144.89638"
+       id="text68466"><tspan
+         sodipodi:role="line"
+         id="tspan68464"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23339px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264586"
+         x="3.3010306"
+         y="144.89638">3mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="97.240036"
+       y="8.8576317"
+       id="text22128"><tspan
+         sodipodi:role="line"
+         id="tspan22126"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="97.240036"
+         y="8.8576317">5mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="110.99527"
+       y="10.857632"
+       id="text68413"><tspan
+         sodipodi:role="line"
+         id="tspan68411"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="110.99527"
+         y="10.857632">7mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.36203"
+       y="6.8576307"
+       id="text70295"><tspan
+         sodipodi:role="line"
+         id="tspan70293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Microgramma D Extended';-inkscape-font-specification:'Microgramma D Extended, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="83.36203"
+         y="6.8576307">3mm</tspan></text>
+  </g>
+</svg>
