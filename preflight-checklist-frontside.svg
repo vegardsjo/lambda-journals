@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.5455844"
-     inkscape:cx="378.49855"
-     inkscape:cy="67.7644"
+     inkscape:zoom="1.2727922"
+     inkscape:cx="327.23331"
+     inkscape:cy="118.24397"
      inkscape:window-width="1908"
      inkscape:window-height="984"
      inkscape:window-x="4"
@@ -259,7 +259,7 @@
          id="tspan33078"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93889px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.250364"
          x="72.278908"
-         y="24.867243">FORSIDE — VERSJON 1.3  </tspan></text>
+         y="24.867243">FORSIDE — VERSJON 1.4  </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.155024"
@@ -438,95 +438,95 @@
        width="18.5"
        height="11.5"
        x="134.5"
-       y="248.94522" />
+       y="248.5" />
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.250721;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.50432, 0.250721;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect28000"
        width="26.5"
        height="11.5"
        x="175.5"
-       y="248.94522" />
+       y="248.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="189.54182"
-       y="240.36385"
+       y="239.94701"
        id="text28004"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan28002"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="189.54182"
-         y="240.36385">ALK. %</tspan></text>
+         y="239.94701">ALK. %</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.209485;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.2569, 0.209485;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect29847"
        width="18.5"
        height="11.5"
        x="155"
-       y="248.94522" />
+       y="248.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="167.19626"
-       y="240.38925"
+       y="239.9724"
        id="text29851"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan29849"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="167.19626"
-         y="240.38925">FG</tspan></text>
+         y="239.9724">FG</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.266763;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.60055, 0.266763;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect29940"
        width="30"
        height="11.499784"
        x="116"
-       y="262.44571" />
+       y="262" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="125.54426"
-       y="253.03003"
+       y="252.61275"
        id="text29944"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="125.54426"
-         y="253.03003"
+         y="252.61275"
          id="tspan36454">E. VOL.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="145.55061"
-       y="240.38925"
+       y="239.9724"
        id="text8613"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan8611"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="145.55061"
-         y="240.38925">OG</tspan></text>
+         y="239.9724">OG</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.671356;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:4.02812, 0.671356;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect38864"
        width="194"
-       height="11.263307"
+       height="11.500001"
        x="7.9999995"
-       y="235.71075" />
+       y="235" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="10.200225"
-       y="227.86124"
+       y="227.30653"
        id="text62105"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan62103"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="10.200225"
-         y="227.86124">NAVN</tspan></text>
+         y="227.30653">NAVN</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:0;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.155024"
@@ -844,38 +844,38 @@
        width="36"
        height="11.499784"
        x="78"
-       y="262.23691" />
+       y="262" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="85.394859"
-       y="252.83456"
+       y="252.61275"
        id="text239785"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan239783"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="85.394859"
-         y="252.83456">VOL. E. K.</tspan></text>
+         y="252.61275">VOL. E. K.</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.292226;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.75334, 0.292226;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect239797"
        width="36"
        height="11.5"
-       x="40"
-       y="262.23669" />
+       x="39.926506"
+       y="262" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="44.810852"
-       y="252.83438"
+       y="252.61285"
        id="text239801"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan239799"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="44.810852"
-         y="252.83438">VOL. F. K.</tspan></text>
+         y="252.61285">VOL. F. K.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -893,75 +893,75 @@
        width="30"
        height="11.5"
        x="7.9999995"
-       y="262.23669" />
+       y="262" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="10.200224"
-       y="252.83447"
+       y="252.61285"
        id="text46245"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan46243"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="10.200224"
-         y="252.83447">M. VOL.</tspan></text>
+         y="252.61285">M. VOL.</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.472261;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:2.83356, 0.472261;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect58585"
        width="96.000053"
-       height="11.263"
+       height="11.5"
        x="7.9999995"
-       y="248.97372" />
+       y="248.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64436px;line-height:1.25;font-family:sans-serif;letter-spacing:0.52916px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247734"
        x="10.200086"
-       y="240.28279"
+       y="239.9756"
        id="text58589"
        transform="scale(0.93634213,1.0679857)"><tspan
          sodipodi:role="line"
          id="tspan58587"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64436px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247734"
          x="10.200086"
-         y="240.28279">SERIE</tspan></text>
+         y="239.9756">SERIE</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.25072;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.50432, 0.25072;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect59953"
        width="26.5"
        height="11.499772"
        x="106.00005"
-       y="248.94531" />
+       y="248.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="115.93243"
-       y="240.38925"
+       y="239.97229"
        id="text59957"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan59955"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="115.93243"
-         y="240.38925">DATO</tspan></text>
+         y="239.97229">DATO</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.248343;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.49004, 0.248343;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect59959"
        width="26"
        height="11.499784"
        x="148"
-       y="262.44571" />
+       y="262" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="159.72025"
-       y="253.03006"
+       y="252.61275"
        id="text59963"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="159.72025"
-         y="253.03006"
+         y="252.61275"
          id="tspan59961">OG °C</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.248342;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.49003, 0.248342;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
@@ -969,57 +969,76 @@
        width="26"
        height="11.499784"
        x="176"
-       y="262.44571" />
+       y="262" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="189.62424"
-       y="253.03006"
+       y="252.61275"
        id="text63935"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="189.62424"
-         y="253.03006"
+         y="252.61275"
          id="tspan63933">FG °C</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.472267;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:2.83359, 0.472267;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect206876"
        width="96.000053"
-       height="11.263307"
+       height="11.500001"
        x="7.9999995"
-       y="275.73669" />
+       y="275.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="10.200225"
-       y="265.33868"
+       y="264.66626"
        id="text206880"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan206878"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="10.200225"
-         y="265.33868">SIGN. BRYGGESJEF</tspan></text>
+         y="264.66626">SIGN. BRYGGESJEF</tspan></text>
     <rect
        style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.472267;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:2.83359, 0.472267;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
        id="rect211232"
        width="96.000053"
-       height="11.263307"
+       height="11.500001"
        x="106.00005"
-       y="275.73669" />
+       y="275.5" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
        x="114.86429"
-       y="265.33868"
+       y="264.66626"
        id="text211236"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan211234"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
          x="114.86429"
-         y="265.33868">SIGN. BRYGGESJEF</tspan></text>
+         y="264.66626">SIGN. BRYGGESJEF</tspan></text>
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:0.25072;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:1.50431, 0.25072;stroke-dashoffset:0;stroke-opacity:0.5;paint-order:normal"
+       id="rect1112"
+       width="59.999996"
+       height="11.499772"
+       x="142"
+       y="221.5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#e0e0e0;fill-opacity:1;stroke:none;stroke-width:0.247737"
+       x="155.79134"
+       y="214.69139"
+       id="text1116"
+       transform="scale(0.93632941,1.0680002)"><tspan
+         sodipodi:role="line"
+         id="tspan1114"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e0e0e0;fill-opacity:1;stroke-width:0.247737"
+         x="155.79134"
+         y="214.69139">BATCHNUMMER</tspan></text>
   </g>
   <metadata
      id="metadata1030">

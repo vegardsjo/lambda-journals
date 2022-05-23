@@ -28,9 +28,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="402.6973"
-     inkscape:cy="950.70504"
+     inkscape:zoom="1"
+     inkscape:cx="216.5"
+     inkscape:cy="105.5"
      inkscape:window-width="1908"
      inkscape:window-height="984"
      inkscape:window-x="4"
@@ -291,6 +291,9 @@
    halfextreme="true"
    unifysegment="true"
    message="" />
+
+
+
 
 
 
@@ -584,7 +587,7 @@
          id="tspan33078"
          style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93889px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.250364"
          x="72.948471"
-         y="24.867243">BAKSIDE — VERSJON 1.3 </tspan></text>
+         y="24.867243">BAKSIDE — VERSJON 1.4 </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.155024"
@@ -822,14 +825,14 @@
        y="137.371" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#000000;fill-opacity:0.4;stroke:none;stroke-width:0.247737"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;letter-spacing:0.529167px;fill:#000000;fill-opacity:0.40000001;stroke:none;stroke-width:0.247737"
        x="10.200238"
        y="135.30562"
        id="text16039"
        transform="scale(0.93632941,1.0680002)"><tspan
          sodipodi:role="line"
          id="tspan16037"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.4;stroke-width:0.247737"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:5.64444px;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.40000001;stroke-width:0.247737"
          x="10.200238"
          y="135.30562">NOTATER</tspan></text>
     <text
